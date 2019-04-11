@@ -47,7 +47,7 @@ int consume(int ty) {
 }
 
 void error(char *s) {
-  fprintf(stderr, "error: %s [%s]", s, tokens[pos].input);
+  fprintf(stderr, "error: %s [%s]\n", s, tokens[pos].input);
   exit(1);
 }
 
